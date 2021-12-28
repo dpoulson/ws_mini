@@ -1,0 +1,6 @@
+[console_scripts]
+diff_motion = diff_motor.wheel_motion:main
+diff_odom = diff_motor.diff_tf:main
+diff_velocity = diff_motor.wheel_velocity:main
+diff_wheels = diff_motor.wheel_publisher:main
+

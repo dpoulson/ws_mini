@@ -1,0 +1,3 @@
+[console_scripts]
+mpu6050 = ros2_mpu6050.publisher_mpu_6050:main
+

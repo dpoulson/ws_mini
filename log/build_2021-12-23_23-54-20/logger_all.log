@@ -1,0 +1,229 @@
+[2.051s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.052s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='sequential', install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbaa1b5b0>>, merge_install=False, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbaa1b5b0>, verb_name='build', verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True))
+[2.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.122s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ws_mini'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_motor) by extensions ['ignore', 'ignore_ament_install']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_motor) by extension 'ignore'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_motor) by extension 'ignore_ament_install'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_motor) by extensions ['ros']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_motor) by extension 'ros'
+[2.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_motor' with type 'ros.ament_python' and name 'diff_motor'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extensions ['ignore', 'ignore_ament_install']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'ignore'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'ignore_ament_install'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extensions ['ros']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'ros'
+[2.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mpu6050' with type 'ros.ament_python' and name 'ros2_mpu6050'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[2.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['ignore', 'ignore_ament_install']
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ignore'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ignore_ament_install'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['ros']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ros'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['cmake', 'python']
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'cmake'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'python'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['python_setup_py']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'python_setup_py'
+[2.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'diff_motor' build argument 'cmake_args' from command line to 'None'
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'diff_motor' build argument 'cmake_target' from command line to 'None'
+[2.539s] Level 5:colcon.colcon_core.verb:set package 'diff_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.539s] Level 5:colcon.colcon_core.verb:set package 'diff_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[2.539s] Level 5:colcon.colcon_core.verb:set package 'diff_motor' build argument 'cmake_clean_first' from command line to 'False'
+[2.540s] Level 5:colcon.colcon_core.verb:set package 'diff_motor' build argument 'cmake_force_configure' from command line to 'False'
+[2.540s] Level 5:colcon.colcon_core.verb:set package 'diff_motor' build argument 'ament_cmake_args' from command line to 'None'
+[2.540s] Level 5:colcon.colcon_core.verb:set package 'diff_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[2.541s] Level 5:colcon.colcon_core.verb:set package 'diff_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.541s] DEBUG:colcon.colcon_core.verb:Building package 'diff_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ws_mini/build/diff_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ws_mini/install/diff_motor', 'merge_install': False, 'path': '/home/ubuntu/ws_mini/src/diff_motor', 'symlink_install': False, 'test_result_base': None}
+[2.568s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_args' from command line to 'None'
+[2.569s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_target' from command line to 'None'
+[2.569s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.569s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_clean_cache' from command line to 'False'
+[2.570s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_clean_first' from command line to 'False'
+[2.570s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_force_configure' from command line to 'False'
+[2.570s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'ament_cmake_args' from command line to 'None'
+[2.571s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'catkin_cmake_args' from command line to 'None'
+[2.571s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.571s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_mpu6050' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ws_mini/build/ros2_mpu6050', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ws_mini/install/ros2_mpu6050', 'merge_install': False, 'path': '/home/ubuntu/ws_mini/src/ros2_mpu6050', 'symlink_install': False, 'test_result_base': None}
+[2.584s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[2.584s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.585s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ws_mini/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ws_mini/install/rplidar_ros', 'merge_install': False, 'path': '/home/ubuntu/ws_mini/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[2.586s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[2.590s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'diff_motor'
+[2.591s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ws_mini/src/diff_motor' with build type 'ament_python'
+[2.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_motor', 'ament_prefix_path')
+[2.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ws_mini/install/diff_motor/share/diff_motor/hook/ament_prefix_path.dsv'
+[2.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ws_mini/install/diff_motor/share/diff_motor/hook/ament_prefix_path.sh'
+[2.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.621s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/galactic'
+[3.546s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ws_mini/src/diff_motor'
+[3.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.555s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/galactic'
+[3.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ws_mini/src/diff_motor': PYTHONPATH=/home/ubuntu/ws_mini/install/diff_motor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/diff_motor build --build-base /home/ubuntu/ws_mini/build/diff_motor/build install --prefix /home/ubuntu/ws_mini/install/diff_motor --record /home/ubuntu/ws_mini/build/diff_motor/install.log --single-version-externally-managed
+[6.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ws_mini/src/diff_motor' returned '0': PYTHONPATH=/home/ubuntu/ws_mini/install/diff_motor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/diff_motor build --build-base /home/ubuntu/ws_mini/build/diff_motor/build install --prefix /home/ubuntu/ws_mini/install/diff_motor --record /home/ubuntu/ws_mini/build/diff_motor/install.log --single-version-externally-managed
+[6.128s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/diff_motor' for CMake module files
+[6.133s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/diff_motor' for CMake config files
+[6.142s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/diff_motor/lib'
+[6.144s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/diff_motor/bin'
+[6.144s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/diff_motor/lib/pkgconfig/diff_motor.pc'
+[6.145s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/diff_motor/lib/python3.8/site-packages'
+[6.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_motor', 'pythonpath')
+[6.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ws_mini/install/diff_motor/share/diff_motor/hook/pythonpath.dsv'
+[6.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ws_mini/install/diff_motor/share/diff_motor/hook/pythonpath.sh'
+[6.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_motor)
+[6.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ws_mini/install/diff_motor/share/diff_motor/package.dsv'
+[6.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ws_mini/install/diff_motor/share/diff_motor/package.sh'
+[6.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ws_mini/install/diff_motor/share/colcon-core/packages/diff_motor)
+[6.175s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'diff_motor' finished with '0'
+[6.176s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros2_mpu6050'
+[6.177s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ws_mini/src/ros2_mpu6050' with build type 'ament_python'
+[6.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mpu6050', 'ament_prefix_path')
+[6.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ws_mini/install/ros2_mpu6050/share/ros2_mpu6050/hook/ament_prefix_path.dsv'
+[6.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ws_mini/install/ros2_mpu6050/share/ros2_mpu6050/hook/ament_prefix_path.sh'
+[6.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.205s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/galactic'
+[7.165s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ws_mini/src/ros2_mpu6050'
+[7.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.173s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/galactic'
+[7.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ws_mini/src/ros2_mpu6050': PYTHONPATH=/home/ubuntu/ws_mini/install/ros2_mpu6050/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_mpu6050 build --build-base /home/ubuntu/ws_mini/build/ros2_mpu6050/build install --prefix /home/ubuntu/ws_mini/install/ros2_mpu6050 --record /home/ubuntu/ws_mini/build/ros2_mpu6050/install.log --single-version-externally-managed
+[8.430s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/ros2_mpu6050' for CMake module files
+[8.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ws_mini/src/ros2_mpu6050' returned '0': PYTHONPATH=/home/ubuntu/ws_mini/install/ros2_mpu6050/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_mpu6050 build --build-base /home/ubuntu/ws_mini/build/ros2_mpu6050/build install --prefix /home/ubuntu/ws_mini/install/ros2_mpu6050 --record /home/ubuntu/ws_mini/build/ros2_mpu6050/install.log --single-version-externally-managed
+[8.433s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/ros2_mpu6050' for CMake config files
+[8.437s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/ros2_mpu6050/lib'
+[8.437s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/ros2_mpu6050/bin'
+[8.437s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/ros2_mpu6050/lib/pkgconfig/ros2_mpu6050.pc'
+[8.438s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/ros2_mpu6050/lib/python3.8/site-packages'
+[8.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mpu6050', 'pythonpath')
+[8.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ws_mini/install/ros2_mpu6050/share/ros2_mpu6050/hook/pythonpath.dsv'
+[8.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ws_mini/install/ros2_mpu6050/share/ros2_mpu6050/hook/pythonpath.sh'
+[8.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_mpu6050)
+[8.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ws_mini/install/ros2_mpu6050/share/ros2_mpu6050/package.dsv'
+[8.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ws_mini/install/ros2_mpu6050/share/ros2_mpu6050/package.sh'
+[8.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ws_mini/install/ros2_mpu6050/share/colcon-core/packages/ros2_mpu6050)
+[8.450s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros2_mpu6050' finished with '0'
+[8.450s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'rplidar_ros'
+[8.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ws_mini/src/rplidar_ros' with build type 'ament_cmake'
+[8.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ws_mini/src/rplidar_ros'
+[8.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.459s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/galactic'
+[8.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ws_mini/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ubuntu/ws_mini/build/rplidar_ros -- -j4 -l4
+[8.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ws_mini/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ubuntu/ws_mini/build/rplidar_ros -- -j4 -l4
+[9.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ws_mini/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ubuntu/ws_mini/build/rplidar_ros
+[9.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[9.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ws_mini/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ubuntu/ws_mini/build/rplidar_ros
+[9.270s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros' for CMake module files
+[9.273s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros' for CMake config files
+[9.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[9.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[9.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[9.285s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros/lib'
+[9.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[9.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[9.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[9.295s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros/bin'
+[9.296s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[9.297s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros/lib/python3.8/site-packages'
+[9.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[9.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/package.sh'
+[9.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ws_mini/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[9.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[9.689s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros' for CMake module files
+[9.696s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros' for CMake config files
+[9.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[9.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[9.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[9.713s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros/lib'
+[9.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[9.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[9.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[9.723s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros/bin'
+[9.724s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[9.725s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ws_mini/install/rplidar_ros/lib/python3.8/site-packages'
+[9.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[9.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ws_mini/install/rplidar_ros/share/rplidar_ros/package.sh'
+[9.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ws_mini/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[9.739s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'rplidar_ros' finished with '0'
+[9.739s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[9.741s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[9.742s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.743s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.746s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ws_mini/install/local_setup.sh'
+[9.752s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ws_mini/install/_local_setup_util_sh.py'
+[9.767s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ws_mini/install/setup.sh'
